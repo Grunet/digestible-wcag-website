@@ -1,0 +1,15 @@
+{
+  "name": "digestible-wcag-website",
+  "version": "0.0.1",
+  "description": "Source code for the WCAG of the Day website (dwcag.org) ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grunet/digestible-wcag-website.git"
+  },
+  "author": "Grunet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Grunet/digestible-wcag-website/issues"
+  },
+  "homepage": "https://github.com/Grunet/digestible-wcag-website#readme"
+}
