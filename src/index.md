@@ -17,3 +17,10 @@ This service was made to help keep me engaged in trying to understand the criter
 ## How do I sign up?
 
 ## How can I give feedback?
+
+You've got a few options:
+
+- Reply to one of the daily emails
+- [Tweet at or message me on Twitter](https://twitter.com/__grunet)
+- [Chat or message me on Reddit](https://www.reddit.com/user/__grunet)
+- [Write up an issue on Github](https://github.com/Grunet/digestible-wcag)
