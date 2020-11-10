@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/Grunet/digestible-wcag-website/issues"
   },
-  "homepage": "https://github.com/Grunet/digestible-wcag-website#readme"
+  "homepage": "https://github.com/Grunet/digestible-wcag-website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
 }
