@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Source code for the WCAG of the Day website (dwcag.org) ",
   "scripts": {
-    "build": "eleventy"
+    "build": "eleventy",
+    "start": "eleventy --serve"
   },
   "repository": {
     "type": "git",
