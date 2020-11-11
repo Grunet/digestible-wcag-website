@@ -22,6 +22,8 @@ This service was made to help keep me engaged in trying to understand the criter
 
 ## How do I sign up?
 
+Follow [this link](/subscribe), submit your email address, and then verify its yours via the confirmation email. The emails should then arrive once daily around 11 AM UTC.
+
 ## How can I give feedback?
 
 You've got a few options:
