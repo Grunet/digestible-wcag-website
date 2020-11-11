@@ -1,0 +1,11 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/subscribe"
+  to = "https://gmail.us18.list-manage.com/subscribe?u=d3a523168b0226d94bcddbfd5&id=f6d8fc9544"
+
+[[redirects]]
+  from = "/unsubscribe"
+  to = "https://gmail.us18.list-manage.com/unsubscribe?u=d3a523168b0226d94bcddbfd5&id=f6d8fc9544"

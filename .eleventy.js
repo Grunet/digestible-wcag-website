@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setTemplateFormats(["md", "png"]);
+  eleventyConfig.setTemplateFormats(["toml", "md", "png"]);
 
   return {
     dir: {
