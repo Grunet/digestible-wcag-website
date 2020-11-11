@@ -6,13 +6,11 @@ layout: index.11ty.js
 
 ## What is this?
 
-Just like those "Word of the Day" email services you can subscribe to, this will send you a daily email with distilled info on a random [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (WCAG) success criterion.
+Just like those "Word of the Day" email services you can subscribe to, this will send you a very brief email on a random [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (WCAG) success criterion each day.
 
 ![Preview of one of the emails in Gmail on Android. Sender is "WCAG of the Day", subject is "Sensory Characteristics - 1.3.3", and the preview text is the beginning of the success criterion's text, reading "Instructions provided for understanding..."](images/mobileEmailPreview.png)
 
-![A screenshot of the main content of this email in Gmail on Android. "Adaptable" is the principle shown at the top, followed by "Sensory Characteristics (Level A)" as the success criterion name and level, followed by the success criterion's text and the guideline's text, which starts "On accessible websites... Instructions provided for understanding and operating content do not solely rely on sensory characteristics of components such as shape, color, size, visual location, orientation, or sound." The example included at the end of the email is cutoff at the bottom of the screenshot.](images/mobileEmailContent.png)
-
-You can also preview this email in your browser by following [this link](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Grunet/digestible-wcag-sc-emails/master/dist/1-3-3.html) (to preview the other emails, change the last 3 digits in the URL to match those of the success criterion you're interested in).
+You can check out the full content of this particular email in your browser by following [this link](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Grunet/digestible-wcag-sc-emails/master/dist/1-3-3.html) (to preview the emails for other success criteria, change the last 3 numbers in the URL to match those of the success criterion you're interested in).
 
 ## Why was it made?
 
