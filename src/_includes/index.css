@@ -36,6 +36,7 @@ p {
 
 img {
   width: 95%;
+  height: auto; /* Preserves the aspect ratio */
 }
 
 ul {

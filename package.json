@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Grunet/digestible-wcag-website#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "clean-css": "^4.2.3"
+    "@11ty/eleventy-img": "^0.3.0",
+    "clean-css": "^4.2.3",
+    "escape-html": "^1.0.3"
   }
 }

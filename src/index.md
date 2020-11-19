@@ -1,5 +1,7 @@
 ---
 layout: index.11ty.js
+mobileEmailPreviewFilepath: /images/mobileEmailPreview.png
+mobileEmailPreviewAltText: Preview of one of the emails in Gmail on Android. Sender is "WCAG of the Day", subject is "Sensory Characteristics - 1.3.3", and the preview text is the beginning of the success criterion's text, reading "Instructions provided for understanding..."
 ---
 
 # WCAG of the Day
@@ -8,7 +10,7 @@ layout: index.11ty.js
 
 Just like those "Word of the Day" email services you can subscribe to, this will send you a very brief email about a random [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (WCAG) success criterion each day.
 
-![Preview of one of the emails in Gmail on Android. Sender is "WCAG of the Day", subject is "Sensory Characteristics - 1.3.3", and the preview text is the beginning of the success criterion's text, reading "Instructions provided for understanding..."](images/mobileEmailPreview.png)
+{% ImageProcessingShortcode mobileEmailPreviewFilepath, mobileEmailPreviewAltText %}
 
 You can check out the full content of this particular email in your browser by following [this link](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Grunet/digestible-wcag-sc-emails/master/dist/1-3-3.html) (to preview the emails for other success criteria, change the last 3 numbers in the URL to match those of the success criterion you're interested in).
 
