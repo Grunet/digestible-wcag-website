@@ -1,14 +1,18 @@
 const path = require("path");
 const { promises: fs } = require("fs");
 
-const pathToCssFile = path.join(__dirname, "index.css");
+const CleanCSS = require("clean-css");
 
 exports.data = async function () {
+  const pathToCssFile = path.join(__dirname, "index.css");
   const cssAsString = await fs.readFile(pathToCssFile);
+  const minifiedCss = new CleanCSS({ level: { 2: { all: true } } }).minify(
+    cssAsString
+  ).styles;
 
   return {
     title: "WCAG of the Day",
-    css: cssAsString,
+    css: minifiedCss,
   };
 };
 
