@@ -1,2 +1,98 @@
+/* Layout */
+
 body {
+  max-width: 80ch;
+  margin: auto;
+  padding: 0 2.5%;
+}
+
+h1 {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  /* Can't use flexbox to center them if the containers can't be targeted */
+  display: block;
+  margin: auto;
+}
+
+img {
+  max-width: 100%; /* Making them responsive */
+}
+
+/* Spacing */
+
+h1 {
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  margin-top: 0.25rem;
+}
+
+p {
+  line-height: 1.25;
+}
+
+/* Colors inverted from the WCAG pages' main colors */
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+h1,
+h2 {
+  color: rgb(0, 90, 156);
+}
+
+h1,
+h2,
+p,
+li {
+  filter: invert(100%);
+}
+
+p > img {
+  filter: invert(
+    100%
+  ); /* Needed to apply the filter again after it's been applied to the parent to undo it*/
+}
+
+a {
+}
+
+a:link {
+}
+
+a:visited {
+}
+
+/* Improving visibility when interacting with the links*/
+a:focus,
+a:hover {
+  outline-style: dashed;
+  outline-width: initial;
+  outline-color: currentcolor;
+}
+
+a:active {
+  outline-style: solid;
+}
+
+/* Fonts */
+
+body {
+  font-family: sans-serif;
 }
