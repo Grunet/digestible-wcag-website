@@ -18,8 +18,6 @@ module.exports = function (eleventyConfig) {
     }
     const altAttr = escapeHtml(altText);
 
-    console.log(pathToImage);
-
     const stats = await Image(path.join(inputDir, pathToImage), {
       formats: ["webp"],
       urlPath: "/img/",
