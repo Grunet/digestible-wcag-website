@@ -1,12 +1,14 @@
----json
+---
 {
-    "layout": "index.11ty.js",
-    "images": {
-        "mobileEmailPreview": {
-            "path": "/images/mobileEmailPreview.png",
-            "alt": "Preview of one of the emails in Gmail on Android. Sender is \"WCAG of the Day\", subject is \"Sensory Characteristics - 1.3.3\", and the preview text is the beginning of the success criterion's text, reading \"Instructions provided for understanding...\""
-        }
-    }
+  "layout": "index.11ty.js",
+  "images":
+    {
+      "mobileEmailPreview":
+        {
+          "path": "/images/mobileEmailPreview.png",
+          "alt": 'Preview of one of the emails in Gmail on Android. Sender is "WCAG of the Day", subject is "Sensory Characteristics - 1.3.3", and the preview text is the beginning of the success criterion''s text, reading "Instructions provided for understanding..."',
+        },
+    },
 }
 ---
 
