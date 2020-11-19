@@ -29,4 +29,4 @@ You've got a few options:
 - Reply to one of the daily emails
 - [Tweet at or message me on Twitter](https://twitter.com/__grunet)
 - [Chat or message me on Reddit](https://www.reddit.com/user/__grunet)
-- [Write up an issue on Github](https://github.com/Grunet/digestible-wcag)
+- [Write up an issue on Github](https://github.com/Grunet/digestible-wcag/issues)
