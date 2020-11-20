@@ -16,17 +16,17 @@
 
 ## What is this?
 
-Just like those "Word of the Day" email services you can subscribe to, this will send you a very brief email about a random [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (WCAG) success criterion each day.
+It's like those "Word of the Day" email services, but for the [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (WCAG) instead. Each day it sends out a short summary of a random success criterion.
 
 {% ImageProcessingShortcode images.mobileEmailPreview.path, images.mobileEmailPreview.alt %}
 
-You can check out the full content of this particular email in your browser by following [this link](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Grunet/digestible-wcag-sc-emails/master/dist/1-3-3.html) (to preview the emails for other success criteria, change the last 3 numbers in the URL to match those of the success criterion you're interested in).
+To view the content of this email in your browser, follow [this link](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Grunet/digestible-wcag-sc-emails/master/dist/1-3-3.html). To check out a different email, change the last 3 numbers in the URL accordingly.
 
 ## Why was it made?
 
-I found (and still find) WCAG kind of hard to read and understand, and as a result I avoided trying to read it for myself.
+I found (and still find) WCAG kind of hard to read and understand. This made me avoid trying to read it for myself.
 
-This service was made to help keep me engaged in trying to understand the criteria directly, one at a time, and make them a little easier to grok too.
+So I made this to help keep myself engaged in trying to understand WCAG. Starting with a small email each day was a lot less daunting for me.
 
 ## How do I sign up?
 
@@ -45,8 +45,12 @@ You've got a few options:
 
 ### Why the Halloween theme?
 
-I actually co-opted the [WCAG website](https://www.w3.org/TR/WCAG/)'s styles and then inverted the colors, figuring that would result in something intriguing yet accessible by default. Orange is also my favorite color so there's that too.
+I co-opted some of the [WCAG website](https://www.w3.org/TR/WCAG/)'s styles and then inverted the colors. I figured that would result in something intriguing yet accessible. Orange is also my favorite color so there's that too.
 
 ### Do you have an accessibility statement?
 
-You're looking at it. If you run into any accessibility hurdles with the service or this site, please contact me through [one of the feedback options mentioned above](#feedback-section). I will aim to to treat it with the same or higher priority as any equivalent able-dominant issue.
+You're looking at it. This applies to both this website and the service.
+
+If you run into any accessibility hurdles with either, please contact me through [one of the above options](#feedback-section).
+
+I aim to treat them like I would any equivalent able-only issues.
