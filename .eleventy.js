@@ -40,9 +40,9 @@ async function __createResponsiveImageHtmlAndFiles(pathToImage, altText) {
             ${Object.values(stats)
               .map((imageFormat) => {
                 return `<source 
-                          type="image/${imageFormat[0].format}" 
+                          type="${imageFormat[0].sourceType}" 
                           srcset="${imageFormat
-                            .map((entry) => `${entry.url} ${entry.width}w`)
+                            .map((entry) => entry.srcset)
                             .join(", ")}" 
                         >`;
               })
