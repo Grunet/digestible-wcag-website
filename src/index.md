@@ -49,4 +49,4 @@ I actually co-opted the [WCAG website](https://www.w3.org/TR/WCAG/)'s styles and
 
 ### Do you have an accessibility statement?
 
-You're looking at it. If you run into any accessibility hurdles with the service or this site, please [contact me](#feedback-section). I will aim to to treat it with the same or higher priority as any equivalent able-dominant issue.
+You're looking at it. If you run into any accessibility hurdles with the service or this site, please contact me through [one of the feedback options mentioned above](#feedback-section). I will aim to to treat it with the same or higher priority as any equivalent able-dominant issue.
