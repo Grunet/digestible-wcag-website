@@ -16,7 +16,7 @@
 
 ## What is this?
 
-It's like those "Word of the Day" email services, but for the [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (WCAG) instead. Each day it sends out a short summary of a random success criterion.
+It's like those "Word of the Day" email services, but for the [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (WCAG) instead. Each day it sends out a short summary of a different success criterion.
 
 {% ImageProcessingShortcode images.mobileEmailPreview.path, images.mobileEmailPreview.alt %}
 
