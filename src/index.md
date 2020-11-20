@@ -32,7 +32,7 @@ This service was made to help keep me engaged in trying to understand the criter
 
 Follow [this link](/subscribe), submit your email address, and then verify its yours via the confirmation email. The emails should then arrive once daily around 11 AM UTC.
 
-## How can I give feedback?
+## How can I give feedback? {#feedback-section}
 
 You've got a few options:
 
@@ -46,3 +46,7 @@ You've got a few options:
 ### Why the Halloween theme?
 
 I actually co-opted the [WCAG website](https://www.w3.org/TR/WCAG/)'s styles and then inverted the colors, figuring that would result in something intriguing yet accessible by default. Orange is also my favorite color so there's that too.
+
+### Do you have an accessibility statement?
+
+You're looking at it. If you run into any accessibility hurdles with the service or this site, please [contact me](#feedback-section). I will aim to to treat it with the same or higher priority as any equivalent able-dominant issue.

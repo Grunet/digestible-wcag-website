@@ -7,6 +7,8 @@ const escapeHtml = require("escape-html");
 module.exports = function (eleventyConfig) {
   eleventyConfig.setTemplateFormats(["toml", "md"]);
 
+  __customizeMarkdownParser(eleventyConfig);
+
   eleventyConfig.addShortcode(
     "ImageProcessingShortcode",
     __createResponsiveImageHtmlAndFiles
@@ -19,6 +21,17 @@ module.exports = function (eleventyConfig) {
     },
   };
 };
+
+function __customizeMarkdownParser(eleventyConfig) {
+  const eleventyDefaultParser = require("markdown-it")({ html: true });
+
+  eleventyConfig.setLibrary(
+    "md",
+    eleventyDefaultParser.use(require("markdown-it-attrs"), {
+      allowedAttributes: ["id"],
+    })
+  );
+}
 
 async function __createResponsiveImageHtmlAndFiles(pathToImage, altText) {
   if (altText === undefined) {
