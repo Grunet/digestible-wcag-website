@@ -30,7 +30,10 @@ So I made this to help keep myself engaged in trying to understand WCAG. Startin
 
 ## How do I sign up?
 
-Follow [this link](/subscribe), submit your email address, and then verify its yours via the confirmation email. The emails should then arrive once daily around 11 AM UTC.
+1. Follow [this link](/subscribe)
+2. Submit your email address
+3. Verify it's yours via the confirmation email
+4. At a little after 11:00 AM UTC, search for an email from "WCAG of the Day"
 
 ## How can I give feedback? {#feedback-section}
 
