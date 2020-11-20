@@ -26,7 +26,9 @@ exports.render = function (data) {
       <style>${data.css}</style>
     </head>
     <body>
-      ${data.content}
+      <main>
+        ${data.content}
+      </main>
     </body>
   </html>`;
 };
