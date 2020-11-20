@@ -65,12 +65,6 @@ li {
   filter: invert(100%);
 }
 
-p > img {
-  filter: invert(
-    100%
-  ); /* Needed to apply the filter again after it's been applied to the parent to undo it*/
-}
-
 a {
 }
 
