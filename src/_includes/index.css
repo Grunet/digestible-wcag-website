@@ -24,7 +24,8 @@ h1 {
   margin-bottom: 0.25rem;
 }
 
-h2 {
+h2,
+h3 {
   margin-top: 1rem;
   margin-bottom: 0.25rem;
 }
@@ -54,12 +55,14 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: rgb(0, 90, 156);
 }
 
 h1,
 h2,
+h3,
 p,
 li {
   filter: invert(100%);

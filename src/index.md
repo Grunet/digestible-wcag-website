@@ -40,3 +40,9 @@ You've got a few options:
 - [Tweet at or message me on Twitter](https://twitter.com/__grunet)
 - [Chat or message me on Reddit](https://www.reddit.com/user/__grunet)
 - [Write up an issue on Github](https://github.com/Grunet/digestible-wcag/issues)
+
+## Other questions:
+
+### Why the Halloween theme?
+
+I actually co-opted the [WCAG website](https://www.w3.org/TR/WCAG/)'s styles and then inverted the colors, figuring that would result in something intriguing yet accessible by default. Orange is also my favorite color so there's that too.
