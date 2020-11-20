@@ -19,13 +19,31 @@ module.exports = function (eleventyConfig) {
     const altAttr = escapeHtml(altText);
 
     const stats = await Image(path.join(inputDir, pathToImage), {
-      formats: ["webp"],
+      widths: [320, 640, 960, 1200, 1800, 2400],
+      formats: ["webp", "jpeg"],
       urlPath: "/img/",
       outputDir: path.join(outputDir, "img"),
     });
-    let props = stats["webp"].pop();
+    const lowestSrc = stats["jpeg"][0];
 
-    return `<img src="${props.url}" width="${props.width}" height="${props.height}" alt="${altAttr}">`;
+    // Iterate over formats and widths
+    return `<picture>
+              ${Object.values(stats)
+                .map((imageFormat) => {
+                  return `<source 
+                            type="image/${imageFormat[0].format}" 
+                            srcset="${imageFormat
+                              .map((entry) => `${entry.url} ${entry.width}w`)
+                              .join(", ")}" 
+                          >`;
+                })
+                .join("\n")}
+              <img
+                src="${lowestSrc.url}"
+                width="${lowestSrc.width}"
+                height="${lowestSrc.height}"
+                alt="${altAttr}">
+            </picture>`;
   });
 
   return {
