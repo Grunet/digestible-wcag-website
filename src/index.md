@@ -40,9 +40,9 @@ To help keep myself engaged in trying to understand WCAG, I made this. Starting 
 You've got a few options:
 
 - Reply to one of the daily emails
-- [Tweet at or message me on Twitter](https://twitter.com/__grunet)
-- [Chat or message me on Reddit](https://www.reddit.com/user/__grunet)
-- [Write up an issue on GitHub](https://github.com/Grunet/digestible-wcag/issues)
+- Tweet at or message [me on Twitter](https://twitter.com/__grunet)
+- Chat or message [me on Reddit](https://www.reddit.com/user/__grunet)
+- Write up an issue on [the GitHub issues page](https://github.com/Grunet/digestible-wcag/issues)
 
 ## Other questions:
 
