@@ -20,7 +20,7 @@ It's like those "Word of the Day" email services, but for the [Web Content Acces
 
 {% ImageProcessingShortcode images.mobileEmailPreview.path, images.mobileEmailPreview.alt %}
 
-To check out this email's contents in your browser, follow [this link](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Grunet/digestible-wcag-sc-emails/master/dist/1-3-3.html). To switch the success criterion, change the last 3 numbers in the URL accordingly.
+You can check out [this email's contents in your browser](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Grunet/digestible-wcag-sc-emails/master/dist/1-3-3.html). To switch the success criterion, change the last 3 numbers in the URL accordingly.
 
 ## Why was it made?
 
@@ -30,7 +30,7 @@ To help keep myself engaged in trying to understand WCAG, I made this. Starting 
 
 ## How do I sign up?
 
-1. Follow [this link](/subscribe)
+1. Go to [the sign up page](/subscribe)
 2. Submit your email address
 3. Verify it's yours via the confirmation email
 4. At a little after 11:00 AM UTC, search for an email from "WCAG of the Day"
@@ -54,6 +54,6 @@ I co-opted some of the [WCAG website](https://www.w3.org/TR/WCAG/)'s styles and 
 
 You're looking at it. This applies to both this website and the service.
 
-If you run into any accessibility hurdles with either, please contact me through [one of the above options](#feedback-section).
+If you run into any accessibility hurdles with either, please contact me through [one of the above feedback options](#feedback-section).
 
 I aim to treat them like I would any equivalent able-only issues.
