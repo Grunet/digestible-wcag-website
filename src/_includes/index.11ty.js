@@ -12,6 +12,8 @@ exports.data = async function () {
 
   return {
     title: "WCAG of the Day",
+    description:
+      "Daily email service for WCAG, delivering short, summarized versions of success criterion documentation to help with learning",
     css: minifiedCss,
   };
 };
@@ -22,6 +24,7 @@ exports.render = function (data) {
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="${data.description}">
       <title>${data.title}</title>
       <style>${data.css}</style>
     </head>
