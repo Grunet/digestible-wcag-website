@@ -20,7 +20,7 @@ It's like those "Word of the Day" email services, but for the [Web Content Acces
 
 {% ImageProcessingShortcode images.mobileEmailPreview.path, images.mobileEmailPreview.alt %}
 
-To view the content of this email in your browser, follow [this link](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Grunet/digestible-wcag-sc-emails/master/dist/1-3-3.html). To check out a different email, change the last 3 numbers in the URL accordingly.
+To check out this email's contents in your browser, follow [this link](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Grunet/digestible-wcag-sc-emails/master/dist/1-3-3.html). To switch the success criterion, change the last 3 numbers in the URL accordingly.
 
 ## Why was it made?
 
