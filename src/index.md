@@ -26,7 +26,7 @@ To check out this email's contents in your browser, follow [this link](https://h
 
 I found (and still find) WCAG kind of hard to read and understand. This made me avoid trying to read it for myself.
 
-So I made this to help keep myself engaged in trying to understand WCAG. Starting with a small email each day was a lot less daunting for me.
+To help keep myself engaged in trying to understand WCAG, I made this. Starting with a small email each day was a lot less daunting for me to tackle.
 
 ## How do I sign up?
 
