@@ -28,7 +28,7 @@ I found (and still find) WCAG kind of hard to read and understand. This made me 
 
 To help keep myself engaged in trying to understand WCAG, I made this. Starting with a short email each day was a lot less daunting to me.
 
-## How do I sign up?
+## How do I sign up? {#sign-up-section}
 
 1. Go to [the sign up page](/subscribe)
 2. Submit your email address
