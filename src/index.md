@@ -30,6 +30,8 @@ To help keep myself engaged in trying to understand WCAG, I made this. Starting 
 
 ## How do I sign up? {#sign-up-section}
 
+This process will include a CAPTCHA. If that would be a blocker for you, please contact me using [one of the below options](#feedback-section). I will manually sign you up instead.
+
 1. Go to [the sign up page](/subscribe)
 2. Submit your email address
 3. Verify it's yours via the confirmation email sent from "WCAG of the Day"
