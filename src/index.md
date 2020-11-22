@@ -32,8 +32,8 @@ To help keep myself engaged in trying to understand WCAG, I made this. Starting 
 
 1. Go to [the sign up page](/subscribe)
 2. Submit your email address
-3. Verify it's yours via the confirmation email
-4. At a little after 11:00 AM UTC, search for an email from "WCAG of the Day"
+3. Verify it's yours via the confirmation email sent from "WCAG of the Day"
+4. At a little after 11:00 AM UTC, search for another email from "WCAG of the Day"
 
 ## How can I give feedback? {#feedback-section}
 
