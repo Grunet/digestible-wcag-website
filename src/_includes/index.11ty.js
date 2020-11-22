@@ -11,7 +11,7 @@ exports.data = async function () {
   ).styles;
 
   return {
-    title: "WCAG of the Day",
+    title: "Digestible WCAG", //Matching the Mailchimp subscription page titles
     description:
       "Daily email service for WCAG, delivering short, summarized versions of success criterion documentation to help with learning",
     css: minifiedCss,
