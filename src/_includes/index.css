@@ -50,22 +50,24 @@ p {
 
 /* Colors inverted from the WCAG pages' main colors */
 
-body {
-  background-color: rgb(0, 0, 0);
-}
-
 h1,
 h2,
 h3 {
   color: rgb(0, 90, 156);
 }
 
-h1,
-h2,
-h3,
-p,
-li {
-  filter: invert(100%);
+@supports (filter: invert(100%)) {
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+
+  h1,
+  h2,
+  h3,
+  p,
+  li {
+    filter: invert(100%);
+  }
 }
 
 a {
