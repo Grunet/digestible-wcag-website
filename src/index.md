@@ -30,8 +30,6 @@ To help keep myself engaged in trying to understand WCAG, I made this. Starting 
 
 ## How do I sign up? {#sign-up-section}
 
->Note: [Email sending is currently broken due to a vendor issue](https://twitter.com/__grunet/status/1670242567978463232?s=20). You can still view the emails via the above instructions.
-
 This process will include a CAPTCHA. If that would be a blocker for you, please contact me using [one of the below options](#feedback-section). I will manually sign you up instead.
 
 1. Go to [the sign up page](/subscribe)
